@@ -3,15 +3,19 @@
 0: Hardware
 
   - 4 Wheel Robot Chassis Smart Car with 4 DC motors Speed and Tacho Encoder  (eBay)  
-  ![image](https://user-images.githubusercontent.com/41960992/194168562-c576350e-df5d-4046-9213-b0cff407bde2.png)
+  <img width="456" alt="image" src="https://user-images.githubusercontent.com/41960992/194170707-3ea1bfbf-7d53-4876-9df2-3adab031e023.png">
   
   - L298N DC Motor Driver Module (PiHut)  
 ![image](https://user-images.githubusercontent.com/41960992/194168423-119747a6-4b3d-4f79-aad2-e248a6547235.png)
   
-   - FPV Gimbal Pan Tilt Camera Platform Mount optional SG90 / MG90S Servos + Guide (eBay)  
+   - FPV Gimbal Pan Tilt Camera Platform Mount optional 2x SG90 Servos + Guide (eBay)  
    <img width="402" alt="image" src="https://user-images.githubusercontent.com/41960992/194170061-a07206d8-397b-451c-b312-14c2a46a2a4e.png">
    
-   - 2x SG90 Servos
+   - 4x HC-SR04 Ultrasonic Range Finder Distance Measuring Module Sensor  
+  ![image](https://user-images.githubusercontent.com/41960992/194171275-1be89dd5-60c4-4521-95e9-d9f91c9dfd28.png)  
+   
+   - Seamuing Raspberry Pi 4 Power Supply UPS Hat USB Expansion Board Power with 10000mAh Battery for Raspberry 4B 3B+ 3B 2B+ 2B  
+   <img width="572" alt="image" src="https://user-images.githubusercontent.com/41960992/194173704-0d94bd89-fa95-467e-a2da-653993637650.png">  
    
 1: Install the Edge TPU runtime
 
