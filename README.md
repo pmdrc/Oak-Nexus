@@ -2,7 +2,7 @@
 
 0: Hardware
 
-  - 4 Wheel Robot Chassis Smart Car with 4 DC motors Speed and Tacho Encoder  (eBay)  
+  - 4 Wheel Robot Chassis Smart Car with 4 DC motors Speed and Tacho Encoder  (eBay)  £20
   <img width="456" alt="image" src="https://user-images.githubusercontent.com/41960992/194170707-3ea1bfbf-7d53-4876-9df2-3adab031e023.png">
   
   - L298N DC Motor Driver Module (PiHut)  
@@ -17,6 +17,12 @@
    - Seamuing Raspberry Pi 4 Power Supply UPS Hat USB Expansion Board Power with 10000mAh Battery for Raspberry 4B 3B+ 3B 2B+ 2B  
    <img width="572" alt="image" src="https://user-images.githubusercontent.com/41960992/194173704-0d94bd89-fa95-467e-a2da-653993637650.png">  
    
+   - Raspberry Pi 4 Model B 8GB  
+   ![image](https://user-images.githubusercontent.com/41960992/194174738-5821bd6a-0977-4d84-863e-572c130acf5b.png)
+
+   -Raspberry Pi Camera Module V2.1 - £28.5
+   ![image](https://user-images.githubusercontent.com/41960992/194174114-b8d20fe0-fad8-46fb-9b25-8bf07ce3d97f.png)
+
 1: Install the Edge TPU runtime
 
     echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
