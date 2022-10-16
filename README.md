@@ -66,6 +66,16 @@
     https://github.com/gadgetoid/Pinout.xyz
     https://www.waveshare.com/wiki/1.47inch_LCD_Module
     https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
+    https://github.com/raspberrypi/picamera2
+  
+    sudo apt update
+    sudo apt install build-essential
+    sudo apt install libatlas-base-dev
+    sudo apt install python3-pip
+    pip3 install tflite-runtime
+    pip3 install opencv-python==4.4.0.46
+    pip3 install pillow
+    pip3 install numpy
 
 Notes: 
 gpio22 = front midle sensor + resistor yello
