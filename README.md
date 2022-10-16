@@ -62,6 +62,10 @@
 *References*
   
     https://www.electronicshub.org/raspberry-pi-l298n-interface-tutorial-control-dc-motor-l298n-raspberry-pi/
+    https://github.com/garyexplains/examples/tree/master/servo
+    https://github.com/gadgetoid/Pinout.xyz
+    https://www.waveshare.com/wiki/1.47inch_LCD_Module
+    https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
 
 Notes: 
 gpio22 = front midle sensor + resistor yello
