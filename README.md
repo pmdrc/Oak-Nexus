@@ -32,6 +32,10 @@
   
     sudo apt-get install python3-pycoral
 
+3.1: reboot the system
+
+    sudo reboot
+
 3.5: Install new Picamera (already ???)
 
     sudo apt install -y python3-picamera2
