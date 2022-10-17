@@ -1,23 +1,59 @@
 # Oak-Nexus
   
 ![IMG_1138 Medium](https://user-images.githubusercontent.com/41960992/192067053-c70deedc-36ae-4e50-a165-0ba0c17e565a.jpeg)  
+
+0: RASPBIAN OS 64BITS
+   With Raspberry Pi Imager --> burn the 64 bits Bullseye with Desktop into and micro-SD card ( V30 , A2 speed )
+  (in extra settings pre-define the Wifi, hostname and user/pass)
+      
+   After 1st boot ssh to it and run :  
+   
+    sudo raspi-conf
   
-1: Install the Edge TPU runtime
+  Enble VNC and SPI
+  
+    sudo apt update & sudo apt upgrade -y
+    
+1: Servo deamon PWM
+  
+    sudo pigpiod
+
+2: Install the Edge TPU runtime
 
     echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
     sudo apt-get update
-
+    sudo apt-get install libedgetpu1-std
+  
 * Install with maximum operating frequency (optional)  
     sudo apt-get install libedgetpu1-max
   
-2: Install the PyCoral library  
+3: Install the PyCoral library  
   
     sudo apt-get install python3-pycoral
 
+3.5: Install new Picamera (already ???)
+
     sudo apt install -y python3-picamera2
 
+4: Install LCD 1.47 display  
   
+    wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.71.tar.gz
+    tar zxvf bcm2835-1.71.tar.gz 
+    cd bcm2835-1.71/
+    sudo ./configure && sudo make && sudo make check && sudo make install
+
+    #Bullseye branch system use the following command:
+    git clone https://github.com/WiringPi/WiringPi
+    cd WiringPi
+    ./build
+    gpio -v
+    
+    sudo wget https://www.waveshare.com/w/upload/8/8d/LCD_Module_RPI_code.zip
+    sudo unzip ./LCD_Module_RPI_code.zip -d ./LCD_Module_RPI_code/
+    cd LCD_Module_RPI_code/RaspberryPi/LCD_Module_RPI_code/RaspberryPi/python/example
+    python 1inch47_LCD_test.py 
+
 ![IMG_1139 Medium](https://user-images.githubusercontent.com/41960992/192067059-17f529b8-6a2c-44ea-bc89-8f842d3518eb.jpeg)
   
 ![IMG_0694 Medium](https://user-images.githubusercontent.com/41960992/192067065-fd887765-edf2-44ca-98a8-872a1a8f63c8.jpeg)
