@@ -38,7 +38,12 @@
 
 3.5: Install new Picamera (already ???)
 
-    sudo apt install -y python3-picamera2
+    # sudo apt install -y python3-picamera2
+    sudo apt install libatlas-base-dev
+    
+3.6 Install OPENCV 4.5.x 
+    https://qengineering.eu/install-opencv-4.5-on-raspberry-64-os.html
+    
 
 4: Install LCD 1.47 display  
   
