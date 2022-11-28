@@ -80,6 +80,7 @@
    
    - 4x HC-SR04 Ultrasonic Range Finder Distance Measuring Module Sensor = £8 (£2 each)  
   ![image](https://user-images.githubusercontent.com/41960992/194171275-1be89dd5-60c4-4521-95e9-d9f91c9dfd28.png)  
+  ![image](https://user-images.githubusercontent.com/41960992/204357137-17399c31-b03b-4ca3-b0e7-ba7444e5c144.png)
    
    - Seamuing Raspberry Pi 4 Power Supply UPS Hat USB Expansion Board Power with 10000mAh Battery for Raspberry 4B 3B+ 3B 2B+ 2B = £32  
    <img width="572" alt="image" src="https://user-images.githubusercontent.com/41960992/194173704-0d94bd89-fa95-467e-a2da-653993637650.png">  
