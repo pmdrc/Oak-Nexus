@@ -168,43 +168,12 @@ def distance (pin):
 def distance_front():
 
 
-#    GPIO.output(PIN_TRIGGER, GPIO.LOW)
-#    sleep(0.01)
-#    GPIO.output(PIN_TRIGGER, GPIO.HIGH)
-#    sleep(0.00001)
-##    GPIO.output(PIN_TRIGGER, GPIO.LOW)
-#    while GPIO.input(PIN0_ECHO)==0:
-#        pulse_start_time = time()
-#    while GPIO.input(PIN0_ECHO)==1:
-#        pulse_end_time = time()
-#    pulse_duration = pulse_end_time - pulse_start_time
-#    sleft = round(pulse_duration * 17150, 2)
     sleft = distance(PIN0_ECHO)
     print ("Distance Left:", sleft, "cm", end=" | ")
 
-#    sleep(0.01)
-#    GPIO.output(PIN_TRIGGER, GPIO.HIGH)
-#    sleep(0.00001)
-#    GPIO.output(PIN_TRIGGER, GPIO.LOW)
-#    while GPIO.input(PIN1_ECHO)==0:
-#        pulse_start_time = time()
-#    while GPIO.input(PIN1_ECHO)==1:
-#        pulse_end_time = time()
-#    pulse_duration = pulse_end_time - pulse_start_time
-#    sright = round(pulse_duration * 17150, 2)
     sright = distance(PIN1_ECHO)
     print ("Distance Right:", sright, "cm", end=" | ")
 
-#    sleep(0.01)
-#    GPIO.output(PIN_TRIGGER, GPIO.HIGH)
-#    sleep(0.00001)
-#    GPIO.output(PIN_TRIGGER, GPIO.LOW)
-#    while GPIO.input(PIN2_ECHO)==0:
-#        pulse_start_time = time()
-#    while GPIO.input(PIN2_ECHO)==1:
-#        pulse_end_time = time()
-#    pulse_duration = pulse_end_time - pulse_start_time
-#    scenter = round(pulse_duration * 17150, 2)
     scenter = distance(PIN2_ECHO)
     print ("Distance Center:",scenter,"cm")
 
@@ -212,18 +181,6 @@ def distance_front():
 
 def distance_back():
 
-#    print('a medir')
-#    GPIO.output(PIN_TRIGGER, GPIO.LOW)
-#    sleep(0.011)
-#    GPIO.output(PIN_TRIGGER, GPIO.HIGH)
-#    sleep(0.00001)
-#    GPIO.output(PIN_TRIGGER, GPIO.LOW)
-#    while GPIO.input(PIN3_ECHO)==0:
-#        pulse_start_time = time()
-#    while GPIO.input(PIN3_ECHO)==1:
-#        pulse_end_time = time()
-#    pulse_duration = pulse_end_time - pulse_start_time
-#    sback = round(pulse_duration * 17150, 2)
     sback = distance(PIN3_ECHO)
     print ("Distance Back:", sback, "cm")
 
