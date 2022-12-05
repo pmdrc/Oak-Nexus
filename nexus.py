@@ -37,7 +37,7 @@ import RPi.GPIO as GPIO
 # For managing OLED screen
 import spidev as SPI
 # sys.path.append("LCD")
-from . import LCD_1inch47
+from LCD_1inch47 import LCD_1inch47
 
 # OLED pins
 RST = 27
@@ -53,7 +53,7 @@ PUPIL=20
 TICK=1
 EXR =80
 EXL = 240
-disp = LCD_1inch47.LCD_1inch47()
+disp = LCD_1inch47()
 disp.Init()
 disp.clear()
 image1 = Image.new("RGB", (disp.width,disp.height ), "BLACK")
