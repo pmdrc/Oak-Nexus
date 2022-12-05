@@ -5,9 +5,9 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 
-import argparse
-import os
-import sys
+#import argparse
+#import os
+#import sys
 import libcamera
 import cv2
 import numpy as np
