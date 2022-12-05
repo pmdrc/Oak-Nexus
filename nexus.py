@@ -36,8 +36,8 @@ import RPi.GPIO as GPIO
 
 # For managing OLED screen
 import spidev as SPI
-sys.path.append("LCD")
-from lib import LCD_1inch47
+# sys.path.append("LCD")
+from . import LCD_1inch47
 
 # OLED pins
 RST = 27
