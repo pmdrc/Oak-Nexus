@@ -113,6 +113,7 @@
     https://www.waveshare.com/wiki/1.47inch_LCD_Module
     https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
     https://github.com/raspberrypi/picamera2
+    https://raspberrypi.stackexchange.com/questions/82833/hc-sr04-randomly-stops-taking-readings
   
     sudo apt update
     sudo apt install build-essential
