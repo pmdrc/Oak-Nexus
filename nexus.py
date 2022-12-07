@@ -8,8 +8,10 @@ import libcamera
 import cv2
 import numpy as np
 import tflite_runtime.interpreter as tflite
-from PIL import Image, ImageDraw, ImageFont
-from picamera2 import MappedArray, Picamera2, Preview
+from PIL import Image, ImageDraw
+from picamera2 import MappedArray, Picamera2
+# Coral TPU 
+from edgetpu.detection.engine import DetectionEngine
 
 # For Webserver streaming mostly copied from https://picamera.readthedocs.io/en/release-1.13/recipes2.html
 import io
