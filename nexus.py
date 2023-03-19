@@ -96,6 +96,8 @@ PAGE = """\
 
 normalSize = (800, 600)
 lowresSize = (400, 300)
+xrate = 800 / 400
+yrate = 600 / 300
 rectangles = []
 
 picam2 = Picamera2()
@@ -260,13 +262,13 @@ def DrawRectangles(request):
     with MappedArray(request, "main") as m:
         for rect in rectangles:
           #  print(rect)
-            rect_start = (int(rect[0] * 2) - 5, int(rect[1] * 2) - 5)
-            rect_end = (int(rect[2] * 2) + 5, int(rect[3] * 2) + 5)
+            rect_start = (int(rect[0] * xrate) - 5, int(rect[1] * yrate) - 5)
+            rect_end = (int(rect[2] * xrate) + 5, int(rect[3] * yrate) + 5)
             cv2.rectangle(m.array, rect_start, rect_end, (0, 255, 0, 0))
             if len(rect) == 5:
                 text = rect[4]
                 font = cv2.FONT_HERSHEY_SIMPLEX
-                cv2.putText(m.array, text, (int(rect[0] * 2) + 10, int(rect[1] * 2) + 10), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+                cv2.putText(m.array, text, (int(rect[0] * xrate) + 10, int(rect[1] * yrate) + 10), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
 ############################
 # MAIN LOOP LOGIC FUNCTION #
