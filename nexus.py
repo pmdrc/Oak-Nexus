@@ -19,6 +19,7 @@ from http import server
 from threading import Condition, Thread
 from picamera2.encoders import JpegEncoder
 from picamera2.outputs import FileOutput
+from libcamera import controls
 
 # For managinfg the servos moving the camera
 from gpiozero import Servo
@@ -401,6 +402,7 @@ def servidor():
     try:
         output = StreamingOutput()
         picam2.start_recording(JpegEncoder(), FileOutput(output))
+        picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous})
         address = ('', 8000)
         server = StreamingServer(address, StreamingHandler)
         server.serve_forever()
