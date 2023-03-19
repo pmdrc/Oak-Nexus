@@ -1,0 +1,20 @@
+Waiting for sensor to settle
+[0:15:50.651073791] [2147]  INFO Camera camera_manager.cpp:293 libcamera v0.0.1+54-d528119f
+[0:15:50.725352128] [2155]  WARN RPI raspberrypi.cpp:1297 Mismatch between Unicam and CamHelper for embedded data usage!
+[0:15:50.727013405] [2155]  INFO RPI raspberrypi.cpp:1414 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media2
+[0:15:50.795533223] [2147]  INFO Camera camera.cpp:1026 configuring streams: (0) 800x600-XBGR8888 (1) 400x300-YUV420
+[0:15:50.795897421] [2155]  INFO RPI raspberrypi.cpp:800 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 1640x1232-SGRBG10_1X10 - Selected unicam format: 1640x1232-pgAA
+
+
+Waiting for sensor to settle
+[0:02:09.487265666] [1192]  INFO Camera camera_manager.cpp:299 libcamera v0.0.4+22-923f5d70
+[0:02:09.616545017] [1200]  INFO RPI raspberrypi.cpp:1476 Registered camera /base/soc/i2c0mux/i2c@1/imx708@1a to Unicam device /dev/media0 and ISP device /dev/media2
+[0:02:09.668723783] [1192]  INFO Camera camera.cpp:1028 configuring streams: (0) 800x600-XBGR8888 (1) 400x300-YUV420
+[0:02:09.669108154] [1200]  INFO RPI raspberrypi.cpp:851 Sensor: /base/soc/i2c0mux/i2c@1/imx708@1a - Selected sensor format: 1536x864-SGRBG10_1X10 - Selected unicam format: 1536x864-pgAA
+192.168.0.109 - - [19/Mar/2023 18:12:19] "GET /index.html HTTP/1.1" 200 -
+192.168.0.109 - - [19/Mar/2023 18:12:19] "GET /stream.mjpg HTTP/1.1" 200 -
+192.168.0.109 - - [19/Mar/2023 18:12:19] code 404, message Not Found
+192.168.0.109 - - [19/Mar/2023 18:12:19] "GET /favicon.ico HTTP/1.1" 404 -
+airplane score =  0.83984375
+airplane score =  0.83984375
+
